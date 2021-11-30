@@ -1,0 +1,15 @@
+$body-bg: black;
+$body-color: white;
+$btn-border-radius: 20px;
+
+@import "node_modules/bootstrap/scss/functions.scss";
+@import "node_modules/bootstrap/scss/variables.scss";
+
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+
+@media only screen and (max-width: 575px) {
+  .box {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
